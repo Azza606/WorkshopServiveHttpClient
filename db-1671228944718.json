@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "invoices": [
+    {
+      "idInvoices": 1,
+      "discountAmount": "some comment",
+      "billamount": 2,
+      "dateAmount": "20-02-1999",
+      "status": false
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,14 @@
+<div *ngFor="let i of listInvoice">
+    {{i.idInvoice}}
+    {{i.discountAmount}}
+    {{i.billAmount}}
+    {{i.dateBill}}
+    {{i.Status}}
+
+  <a routerLink="/remove/{{i.idInvoice}}">remove</a>
+    <a [routerLink]="['/update/',i.idInvoice]">update</a>
+      <!--<input type="submit" value="update with input" (click)="update(p)">
+    </div>
+    <div *ngIf="show">
+    <app-updatewith-input [prod]="prod"></app-updatewith-input>-->
+    </div>
